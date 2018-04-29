@@ -1,4 +1,5 @@
-#[macro_use] extern crate nickel;
+#[macro_use]
+extern crate nickel;
 // extern crate chrono;
 // use chrono::prelude::*;
 use nickel::Nickel;
@@ -8,7 +9,6 @@ fn say_hello() -> &'static str {
     //let a = String::from(lastchecked);
     //let b = String::from("Last checked: ");
     //let c = String::
-    //"<!DOCTYPE html><title>EPIC STATUS</title><body>EPIC IS UP! Last checked {}.</body>", (lastcheck);
     "hello"
 }
 
@@ -23,8 +23,8 @@ fn main() {
     // let newtimestamp = get_unix_timestamp_us();
     // println!("{:?}", newtimestamp);
     let mut server = Nickel::new();
-            // let d = SystemTime::now();
-                // let datetime = DateTime::<Utc>::from(newtimestamp);
+    // let d = SystemTime::now();
+    // let datetime = DateTime::<Utc>::from(newtimestamp);
     // Formats the combined date and time with the specified format string.
     // let timestamp_str = datetime.format("%Y-%m-%d %H:%M:%S.%f").to_string();
     // println!{"{}",timestamp_str};
