@@ -1,0 +1,11 @@
+[package]
+name = "rust-examples-app"
+version = "0.1.0"
+authors = ["James Campbell <james@jamescampbell.us>"]
+
+[dependencies]
+chrono = "0.4"
+
+[dependencies.nickel]
+
+git = "https://github.com/nickel-org/nickel.rs.git"
